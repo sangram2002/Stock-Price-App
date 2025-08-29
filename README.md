@@ -12,7 +12,7 @@ An interactive Streamlit web app for tracking stock market data. Features:  🔍
 - Stock search functionality
 
 ## 🛠 Installation
-```bash
+
 git clone https://github.com/your-username/stock-trading-dashboard.git
 cd stock-trading-dashboard
 pip install -r requirements.txt
