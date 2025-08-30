@@ -40,7 +40,7 @@ def load_stock_universe(local_path: str = LOCAL_ALL_STOCKS, remote_url: str = GI
             r.raise_for_status()
             from io import StringIO
             df = pd.read_csv(StringIO(r.text), dtype=str)
-            st.info("✅ Loaded stock list from GitHub.")
+            st.info("✅ NIFTY 500 companies (Indian market) and S&P 500 companies (US market) are available to analyze.")
     except Exception as e:
 
         st.error(f"❌ Could not load stock list: {e}")
